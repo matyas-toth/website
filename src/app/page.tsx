@@ -1,31 +1,13 @@
 import blurSvg from "@/app/svg/b12.svg";
-import { CircleUser, Menu, Package2, Search, Sparkles, SquareArrowOutUpRight } from "lucide-react"
+import { Menu, Sparkles } from "lucide-react"
 import noiseSvg from "@/app/svg/dots2.svg";
 import thirdLayer from "@/app/svg/cccoil.svg";
-import { EnvelopeOpenIcon, FileTextIcon, PersonIcon } from "@radix-ui/react-icons"
+import { FileTextIcon, PersonIcon } from "@radix-ui/react-icons"
 
-import {
-  NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuItem,
-  NavigationMenuLink,
-  NavigationMenuList,
-  NavigationMenuTrigger,
-  navigationMenuTriggerStyle,
-} from "@/components/ui/navigation-menu"
 
-import { Input } from "@/components/ui/input"
 
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuLabel,
-  DropdownMenuSeparator,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
 
 import * as React from "react"
 import Link from "next/link"
@@ -148,7 +130,7 @@ export default function Home() {
               </Card>
               <Card className="backdrop-blur transition ease-in-out duration-700 bg-black/20">
                 <CardHeader className="pb-3">
-                  <CardTitle className="relative z-10 text-2xl sm:text-3xl md:text-3xl lg:text-3xl font-bold tracking-tighter">Matyas "Reig" Toth</CardTitle>
+                  <CardTitle className="relative z-10 text-2xl sm:text-3xl md:text-3xl lg:text-3xl font-bold tracking-tighter">Matyas &quot;Reig&quot; Toth</CardTitle>
                   <CardDescription className="text-balance max-w-lg leading-relaxed">
                     The founder of Reig Industries.
                   </CardDescription>
