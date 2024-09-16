@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 
-
+// Aceternity UI
 
 export const metadata: Metadata = {
   title: "Reig Industries | Backend development & graphic design",
