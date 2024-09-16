@@ -20,6 +20,7 @@ import * as React from "react"
 import Link from "next/link"
 import { Button } from "@/components/ui/button";
 import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
+import { MacbookScrollLive } from "@/components/modules/MacbookScrollLive";
 
 
 export default function Home() {
@@ -256,6 +257,13 @@ export default function Home() {
           </div>
         </div>
       </div>
+      
+
+      </main>
+
+      <main>
+
+              <MacbookScrollLive></MacbookScrollLive>
       
 
       </main>
